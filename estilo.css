@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Faz o padding e border ficarem dentro da largura */
+    font-family: 'Noto Sans JP', sans-serif;
+} 
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#f5f7fa, #c3cfe2);
+}
+.logo{
+    width: 180px;
+    display: block;
+    margin: 0 auto 15px;
+}
+.conteiner-primeiro{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+}
+.titulu{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-family: 'monoton', cursive;
+    color : #4a6bdf;
+}
+input{
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+}
+#cep{
+    margin-top: 15px;
+}
+input[type="button"] {
+    background-color: #4a6bdf;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer; /* o mouse vira maozinha quando passar por cima */
+}
+/* para o botão mudar de cor qundo passar por cima  */
+input[type="button"]:hover {
+    background-color: #3a56c4;
+}
+

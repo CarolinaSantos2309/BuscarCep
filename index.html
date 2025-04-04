@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Noto+Sans+JP:wght@100..900&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="">
+
+    <title>Buscar Cep</title>
+</head>
+<body>
+    <div class="conteiner-primeiro">
+        <img src="Logo.png" alt="logo site" class="logo">
+        <h2 class="titulu">Pesquisar CEP</h2>
+        <input id="cep" type="number" placeholder="Digite cep">
+        <input onclick="coletarCep()" type="button" value="Procurar">
+        <h2 class="estado">Estado</h2>
+        <input id="estado" type="text" placeholder="Região" autocomplete="off" disabled>
+        <h2 class="cidade">Cidade</h2>
+        <input id="cidade" type="text" placeholder="Cidade" autocomplete="off" disabled>
+        <h2 class="bairro">Bairro</h2>
+        <input id="bairro" type="text" placeholder="Bairro" autocomplete="off" disabled>
+        <h2 class="endereco">Endereço</h2>
+        <input id="endereco" type="text" placeholder="Endereço" autocomplete="off" disabled>
+        <h2 class="complemento">Complemento</h2>
+        <input id="complemento" type="text" placeholder="Complemento" autocomplete="off" disabled>
+        <h2 class="regiao">Região</h2>
+        <input id="regiao" type="text"placeholder="Região" autocomplete="off" disabled>
+        
+    </div>
+ <script src="cepp.js"></script>   
+</body>
+</html>
